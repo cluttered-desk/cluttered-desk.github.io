@@ -1,0 +1,30 @@
+<p>아마 다음과 같은 생각은 누구나 한 번쯤 해 본 적이 있을 것이다.</p>
+
+<p>적당한 구간을 잡아서 그 안에 무리수 혹은 유리수만 포함되게 할 수 있을까?</p>
+
+<p>답은 딱 잘라서 ‘없다’이다.</p>
+
+<p>조금 수학적으로 표현하자면 $a,b\in\mathbb{R}$인 임의의 $a,b$에 대해서 $a&lt;x&lt;b$를 만족하는 $x\in\mathbb{Q}$이거나 $x\in\mathbb{I}$인 $x$가 항상 존재한다는 것이다. 이 성질을 만족하면 dense하다고 한다.</p>
+
+<p>증명은 다음과 같다. 증명은 Rudin, Walter. <em>Principles of mathematical analysis</em>. Vol. 3. New York: McGraw-Hill, 1964. 을 참고하였다.</p>
+
+<p>우선 다음 보조정리를 증명하자.</p>
+
+<p><strong>보조정리: 만약 $x,y\in\mathbb{R}$이고, $x&gt;0$이라면 $nx&gt;y$을 만족시키는 $n\in\mathbb{Z}^+$가 존재한다.</strong></p>
+
+<p>증명: $A$를 모든 $nx$들의 집합이라고 하자. 보조정리가 거짓이라면, $y$가 집합 $A$의 Upper bound가 된다. 이제 $A$의 least upper bound를 생각하자. 이는 자명히 $\mathbb{r}$에 속한다.</p>
+
+<p>$sup A=\alpha$로 잡자. $\alpha-x&lt;\alpha$이므로 $\alpha-x$는 자명히 $A$의 Upper bound가 아니고, 그러므로 $mx&gt;\alpha-x$를 만족하는 $m\in\mathbb{Z}^+$가 존재한다.</p>
+
+<p>그렇다면 $(m+1)x&gt;\alpha$이고, 이는 $sup A=\alpha$에 모순이다. 따라서 보조정리는 참이 된다.</p>
+
+<p>이제 원래 정리를 증명해보자.</p>
+
+<p>증명: $x,y\in\mathbb{R}$ 이고 $x&lt;y$ 라면 보조정리에 의해 $n(y-x)&gt;1$를 만족하는 양의 정수 $n$ 이 존재한다.</p>
+
+<p>보조정리를 한번 더 쓰자. $m_1&gt;nx$, $m_2&gt;-nx$인 양의 정수 $m_1$, $m_2$가 존재한다. 그렇다면 $-m_2&lt;nx&lt;m_1$이 되고, $-m_2\leq m \leq m_1$이고 $m-1\leq nx &lt;m$인 $m$을 잡아 조합하면
+  <script type="math/tex">% <![CDATA[
+nx<m\leq 1+nx<ny %]]></script>
+  이고 $n$ 이 양수이므로 $x&lt;\dfrac{m}{n}&lt;y$ 이다.</p>
+
+<p>여기서 무리수의 조밀성을 보이기는 굉장히 간단하다. $\dfrac{a}{\xi}&lt;q&lt;\dfrac{b}{\xi}$ (단,$a,b\in \mathbb{R}, q\in \mathbb{Q}, \xi \in\mathbb{I}$)인 q가 존재함이 유리수의 조밀성에 의해 자명하고, 부등식에 각 항에 $\xi$를 곱하면 증명이 끝난다.</p>
