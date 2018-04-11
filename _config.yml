@@ -379,8 +379,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: www-cluttereddesk-net
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -435,7 +435,7 @@ gitalk:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+#google_analytics: "UA-113149668-1"
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
