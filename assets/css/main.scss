@@ -106,3 +106,8 @@ $jekyll-config-map : (
 // Custom Layer
 // --------------------------------------------------
 @import "_custom/custom";
+
+@font-face {
+	  font-family: "kbiz-Regular";
+		  src: url( '../_assets/fonts/kbiz-Regular.ttf') format( 'truetype');
+}
