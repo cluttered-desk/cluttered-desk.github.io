@@ -167,7 +167,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: 
 
   # Global font settings used on <body> element.
   global:
@@ -179,13 +179,13 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
+    family: Nanum Myeongjo
 
   # Font settings for posts
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: 
 
   # Font settings for Logo
   # Fallback to `global` font settings.
