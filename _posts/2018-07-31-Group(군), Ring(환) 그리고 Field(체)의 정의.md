@@ -58,5 +58,5 @@ Field의 정의는 Ring에서 시작한다. $+$에 대한 identity를 $0$으로 
 
 $$a\cdot 0=a\cdot (0+0)=a\cdot 0+a\cdot0$$
 
-이고, 이제 양변에 $a\cdot 0$의 addition에 대한 inverse를 더해보자.
+이고, 이제 양변에 $a\cdot 0$의 addition에 대한 inverse를 더해보자. 여기서 쓰인건 Ring의 정의 뿐이다.
 
