@@ -31,7 +31,7 @@ $$\begin{pmatrix}\cosh{\rho}&\sinh{\rho}\\ \sinh{\rho}&\cosh{\rho}\end{pmatrix}$
 
 의 형태로 써지고, 연산을 일반적인 행렬곱으로 정의하고 1,2,3을 점검해 보자.
 
-꼭 이런 뭔가 수리적인 예만 있는 것은 아니다. 또 다른 예로는, n개의 공의 배열과 각각을 섞는 것을 연산이라고 한다면 이 역시 군을 이룬다. (Symmetric Group혹은 Permutation Group이라 한다.) 항등원은 당연히 존재하고(공을 그대로 냅두면 된다.), 역원도 어떤 섞는 연산의 역과정으로 존재하며, 자명히 닫혀있으며 associative하다. 이를 생각할때 commutative 하지 않음에 주의하자. $a(bc)$를 생각할때 $(bc)a$와 헷갈리기 쉽다.
+꼭 이런 뭔가 수리적인 예만 있는 것은 아니다. 또 다른 예로는, n개의 공의 배열을 섞는 것들 역시 군을 이룬다. (Symmetric Group혹은 Permutation Group이라 한다.) 항등원은 당연히 존재하고(공을 그대로 냅두면 된다.), 역원도 어떤 섞는 연산의 역과정으로 존재하며, 자명히 닫혀있으며 associative하다. 이를 생각할때 commutative 하지 않음에 주의하자. $a(bc)$를 생각할때 $(bc)a$와 헷갈리기 쉽다.
 
 
 # Ring(환)
