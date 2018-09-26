@@ -32,7 +32,7 @@ tags: Travel 2017-Nepal/Annapurna-Base-Camp-Trekking
 
 ![](https://farm2.staticflickr.com/1867/30324008738_c767eb7e11_k.jpg)▲시와이에서 먹은 치킨.
 
-![](https://farm2.staticflickr.com/1862/44191005411_a8685a892a_k.jpg)▲시와이에서 먹은 치킨
+![](https://farm2.staticflickr.com/1862/44191005411_a8685a892a_k.jpg)▲시와이에 뜬 작은 무지개
 
 ![](https://farm2.staticflickr.com/1845/44191012701_b4b411c1c9_k.jpg)▲김체 아래의 계곡
 
